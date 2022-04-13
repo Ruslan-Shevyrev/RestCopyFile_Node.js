@@ -1,0 +1,10 @@
+# bak #
+############
+*.bak
+node_modules
+media_
+dbconfig_*.js
+config_*.json
+package-lock.json
+RestImageResize_.js
+query_*.js
