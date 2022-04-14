@@ -29,8 +29,7 @@ function initialize(webServerConfig, query) {
 				if (!fs.existsSync(path)){
 					try{
 						fs.mkdirSync(path, { recursive: true });
-						console.log("1")
-					} catch{
+					} catch(error){
 						path = webServerConfig.file_path;
 					}
 					
