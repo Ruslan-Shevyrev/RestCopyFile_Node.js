@@ -14,17 +14,32 @@ function initialize(webServerConfig, query) {
 			if (req.params.id!=undefined){
 					binds = {id : req.params.id}
 			}
-					
+					//res.end(req.query.path);	
 				let QUERY = query.DEFAULT_SQL_GET_FILE;
+				let path = webServerConfig.file_path;
+				
+				if (req.query.path != undefined){
+					path = req.query.path;
+				}
 					
 				if (req.query.query != undefined){
 					QUERY = query[req.query.query];
 				}
+
+				if (!fs.existsSync(path)){
+					try{
+						fs.mkdirSync(path, { recursive: true });
+						console.log("1")
+					} catch{
+						path = webServerConfig.file_path;
+					}
 					
+				}
+
 				result = await database.Execute(QUERY, binds);
 				
-				fs.writeFileSync(webServerConfig.file_path+result.rows[0][0], result.rows[0][1]);
-				res.end('success');				
+				fs.writeFileSync(path+result.rows[0][0], result.rows[0][1]);
+				res.end('file '+path+result.rows[0][0]+' is created');				
 		}
 		catch (err){
 			res.status(500).send(err.toString());
