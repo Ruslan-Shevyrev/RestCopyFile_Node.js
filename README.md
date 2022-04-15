@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="/media/RestCopyFIle.gif" width="350" title="RestCopyFile">
+</p>
+
 # RestCopyFile
 
 Rest API to copy files from Oracle database and save to disk.\
