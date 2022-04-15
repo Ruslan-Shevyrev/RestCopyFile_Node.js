@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="/media/RestCopyFile.gif" width="350" title="RestCopyFile">
+  <img src="https://github.com/Ruslan-Shevyrev/MediaFilesToGitHub/blob/master/RestCopyFile-nodejs/media/RestCopyFile.gif" width="350" title="RestCopyFile">
 </p>
 
 # RestCopyFile
