@@ -3,6 +3,7 @@
 *.bak
 node_modules
 media_
+media
 dbconfig_*.js
 config_*.json
 package-lock.json
