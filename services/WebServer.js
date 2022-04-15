@@ -14,7 +14,7 @@ function initialize(webServerConfig, query) {
 			if (req.params.id!=undefined){
 					binds = {id : req.params.id}
 			}
-					//res.end(req.query.path);	
+
 				let QUERY = query.DEFAULT_SQL_GET_FILE;
 				let path = webServerConfig.file_path;
 				
