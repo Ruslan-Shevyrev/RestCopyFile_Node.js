@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="/media/RestCopyFIle.gif" width="350" title="RestCopyFile">
+  <img src="/media/RestCopyFile.gif" width="350" title="RestCopyFile">
 </p>
 
 # RestCopyFile
