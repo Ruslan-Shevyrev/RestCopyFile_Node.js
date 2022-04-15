@@ -15,6 +15,11 @@ You can use this when you need a service to copy files from an ORACLE database a
 npm install restcopyfile
 ```
 
+<p align="center">
+  <img src="https://github.com/Ruslan-Shevyrev/MediaFilesToGitHub/blob/master/RestCopyFile-nodejs/media/npm_install.gif" width="350" title="npm_install">
+</p>
+
+
 ### Install like service (Option 2)
 
 ```
