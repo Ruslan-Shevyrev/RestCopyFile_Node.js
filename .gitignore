@@ -6,7 +6,7 @@ media_
 media
 dbconfig_*.js
 config_*.json
-web-server-config_
+web-server-conf_*.js
 package-lock.json
 RestImageResize_.js
 query_*.js
