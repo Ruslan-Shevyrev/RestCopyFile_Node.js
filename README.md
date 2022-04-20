@@ -109,7 +109,7 @@ SELECT FILE_NAME, BDATA FROM TEMP_IMAGE WHERE ID = :id
 ```
 parameters:
 
-***path :*** path for saving file (DEFAULT : file_path from webServerConfig(webServerConfig.js))
+***path :*** path for saving file (DEFAULT : file_path from webServerConfig(webServerConfig.js))\
 ***query :*** set query for blob. You can set more than one predetermined query (you need one query named **DEFAULT_SQL_GET_FILE** by default)
 
 ```
