@@ -123,6 +123,11 @@ query = {
   THIRD_SQL : "THIRD_SQL"
 };
 ```
+
+<p align="center">
+  <img src="https://github.com/Ruslan-Shevyrev/MediaFilesToGitHub/blob/master/RestCopyFile-nodejs/media/example.gif" width="700" title="npm_install">
+</p>
+
 <p align="left">
   <img src="https://github.com/Ruslan-Shevyrev/Ruslan-Shevyrev/blob/main/logoRS/logo_mini.gif" width="49%" title="logo">
   <img src="https://github.com/Ruslan-Shevyrev/Ruslan-Shevyrev/blob/main/logoRS/logoRS_FULL.png" width="49%" title="RuslanShevyrev" >
