@@ -27,6 +27,10 @@ npm install restcopyfile
 2. npm install
 ```
 
+<p align="center">
+  <img src="https://github.com/Ruslan-Shevyrev/MediaFilesToGitHub/blob/master/RestCopyFile-nodejs/media/service_install.gif" width="350" title="npm_install">
+</p>
+
 ## Start
 
 ### Option 1
