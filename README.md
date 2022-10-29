@@ -106,7 +106,7 @@ node RestCopyFileStart.js
 SELECT FILE_NAME, BDATA FROM TEMP_IMAGE WHERE ID = :id
 ```
 
-## Using
+## How to use
 
 ```
 <host>:<listener_port>/file/put/<file id from database>/?parameters
